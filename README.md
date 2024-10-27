@@ -1,3 +1,4 @@
+# Note that we did not publish the lightning studio because we did not use gpus for anything.
 ## Setup
 - Import dataset (not included in this repo)
 ### Using `uv`
