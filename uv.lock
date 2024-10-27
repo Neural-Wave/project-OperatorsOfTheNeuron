@@ -311,6 +311,22 @@ wheels = [
 ]
 
 [[package]]
+name = "dagma"
+version = "1.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "igraph" },
+    { name = "numpy" },
+    { name = "scipy" },
+    { name = "torch" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/56/79/f7cb5023d096b0cdcf4fa1b0e9999cf1d3c59c4e45280f889e00247fd90c/dagma-1.1.1.tar.gz", hash = "sha256:41788ea727fde843b2424aced45dcf36bfc0c82bbd874c915bc939775246eaf6", size = 22567 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/81/ee/5626b0d7a2c3943db2ba9e64db256384726fb2c7cc2b08326a975a06ff5b/dagma-1.1.1-py3-none-any.whl", hash = "sha256:f93383d432d37acc84fc9dc2b407fe662bc7f566adb89e840073c15b1b20df07", size = 21671 },
+]
+
+[[package]]
 name = "debugpy"
 version = "1.8.7"
 source = { registry = "https://pypi.org/simple" }
@@ -497,6 +513,33 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/fa/83/5a40d19b8347f017e417710907f824915fba411a9befd092e52746b63e9f/graphviz-0.20.3.zip", hash = "sha256:09d6bc81e6a9fa392e7ba52135a9d49f1ed62526f96499325930e87ca1b5925d", size = 256455 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/00/be/d59db2d1d52697c6adc9eacaf50e8965b6345cc143f671e1ed068818d5cf/graphviz-0.20.3-py3-none-any.whl", hash = "sha256:81f848f2904515d8cd359cc611faba817598d2feaac4027b266aa3eda7b3dde5", size = 47126 },
+]
+
+[[package]]
+name = "igraph"
+version = "0.11.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "texttable" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5f/a0/1f70c34a96dcb0acf428319e83655e92ab2955d73a33f711852a5fb79681/igraph-0.11.6.tar.gz", hash = "sha256:837f233256c3319f2a35a6a80d94eafe47b43791ef4c6f9e9871061341ac8e28", size = 4559252 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a9/f5/2de2ff541a014c3387c0c570a91e51b80643d9a2a3e0dec8030bcec3083d/igraph-0.11.6-cp39-abi3-macosx_10_9_x86_64.whl", hash = "sha256:8aabef03d787b519d1075dfc0da4a1109fb113b941334883e3e7947ac30a459e", size = 1945799 },
+    { url = "https://files.pythonhosted.org/packages/e4/3b/5cf3b131d433dea61608ea2c27bebf74de9cc7a50ced0b26311d6288294e/igraph-0.11.6-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:1f2cc4a518d99cdf6cae514f85e93e56852bc8c325b3abb96037d1d690b5975f", size = 1751328 },
+    { url = "https://files.pythonhosted.org/packages/fc/71/71cd93c1b26e6051ef5dfad94333690188e663942e54bea6bbfff79d2dbe/igraph-0.11.6-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c1e859238be52ab8ccc614d18f9362942bc88ce543afc12548f81ae99b10801d", size = 2974608 },
+    { url = "https://files.pythonhosted.org/packages/19/ec/02e596595776367f5fd07c65a56ff1593680273f935c481975fe6a55e67f/igraph-0.11.6-cp39-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d61fbe5e85eb4ae9efe08c461f9bdeedb02a2b5739fbc223d324a71f40a28be2", size = 3054685 },
+    { url = "https://files.pythonhosted.org/packages/02/f2/70849b7ff0fbfd3e7c964ac737ea973d0121d30a32a18894df6d0843bd0c/igraph-0.11.6-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b6620ba39df29fd42151becf82309b54e57148233c9c3ef890eed62e25eed8a5", size = 3134936 },
+    { url = "https://files.pythonhosted.org/packages/ef/49/579f3a5daea1a672f05c95ead488e779f1479a8efb78715c1508f7dae58a/igraph-0.11.6-cp39-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:59666589bb3d07f310cda2c5106a8adeeb77c2ef27fecf1c6438b6091f4ca69d", size = 3887705 },
+    { url = "https://files.pythonhosted.org/packages/ef/d2/66203ba13f90ea77f541c0f5b5ae095a7ced0a564486f576e5adce0d0bd7/igraph-0.11.6-cp39-abi3-musllinux_1_2_i686.whl", hash = "sha256:8750b6d6caebf199cf7dc41c931f58e330153779707391e30f0a29f02666fb6e", size = 4158876 },
+    { url = "https://files.pythonhosted.org/packages/53/e7/3fbe83625efb1dd5f387a9da9ec0ac779a2dc42e6db0ac7eb54c44943b2f/igraph-0.11.6-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:967d6f2c30fe94317da15e459374d0fb8ca3e56020412f201ecd07dd5b5352f2", size = 4050715 },
+    { url = "https://files.pythonhosted.org/packages/ab/91/2535aa81a1de36f5b21df129b3434a18710d31ea56efbf0ec6e1f1958fda/igraph-0.11.6-cp39-abi3-win32.whl", hash = "sha256:9744f95a67319eb6cb487ceabf30f5d7940de34bada51f0ba63adbd23e0f94ad", size = 1589990 },
+    { url = "https://files.pythonhosted.org/packages/08/4a/e781867fa2fb41d823a8f1978ac464aef3d78bb73c6f40589a74cc47bf42/igraph-0.11.6-cp39-abi3-win_amd64.whl", hash = "sha256:b80e69eb11faa9c57330a9ffebdde5808966efe1c1f638d4d4827ea04df7aca8", size = 1965492 },
+    { url = "https://files.pythonhosted.org/packages/3d/67/f191be5f2db595ba47038498028a469afab62056ba515d531b06a62c902d/igraph-0.11.6-pp310-pypy310_pp73-macosx_10_15_x86_64.whl", hash = "sha256:0329c16092e2ea7930d5f8368666ce7cb704900cc0ea04e4afe9ea1dd46e44af", size = 1930973 },
+    { url = "https://files.pythonhosted.org/packages/9f/70/a4e9b305c9b84e188161c9f8357f72d043626714964de872ce559804635d/igraph-0.11.6-pp310-pypy310_pp73-macosx_11_0_arm64.whl", hash = "sha256:21752313f449bd8688e5688e95ea7231cea5e9199c7162535029be0d9af848ac", size = 1736271 },
+    { url = "https://files.pythonhosted.org/packages/b2/fd/f449af5ba5423221ee7f6fe2f6f85bd0e30345e0c326c06e1110ef890c32/igraph-0.11.6-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ea25e136c6c4161f53ff58868b23ff6c845193050ab0e502236d68e5d4174e32", size = 2589657 },
+    { url = "https://files.pythonhosted.org/packages/9a/c6/385a2b7cfeab8e2c62312fc19a6891eb0463f5a9d7da3fb2fb6ec22a879d/igraph-0.11.6-pp310-pypy310_pp73-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ac84433a03aef15e4b810010b08882b09854a3669450ccf31e392dbe295d2a66", size = 2752646 },
+    { url = "https://files.pythonhosted.org/packages/f1/88/2c85cf17a1b6469bdd3f7245ecb0e9da7f8aec0443c3612a3d64223f64ff/igraph-0.11.6-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ac697a44e3573169fa2b28c9c37dcf9cf01e0f558b845dd7123860d4c7c8fb89", size = 2756094 },
+    { url = "https://files.pythonhosted.org/packages/b5/9a/78de6e88eb229e68cd4bd410852349bbf7772a7e121a429599b39449abf1/igraph-0.11.6-pp310-pypy310_pp73-win_amd64.whl", hash = "sha256:bdeae8bf35316eb1fb27bf667dcf5ecf5fcfb0b8f51831bc1b00c39c09c2d73b", size = 1965375 },
 ]
 
 [[package]]
@@ -1237,6 +1280,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "causalnex" },
+    { name = "dagma" },
     { name = "dowhy" },
     { name = "gcastle" },
     { name = "ipykernel" },
@@ -1247,6 +1291,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "causalnex", specifier = ">=0.12.1" },
+    { name = "dagma", specifier = ">=1.1.1" },
     { name = "dowhy", specifier = ">=0.11.1" },
     { name = "gcastle", specifier = ">=1.0.3" },
     { name = "ipykernel", specifier = ">=6.29.5" },
@@ -1688,6 +1733,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ca/99/5a5b6f19ff9f083671ddf7b9632028436167cd3d33e11015754e41b249a4/sympy-1.13.1.tar.gz", hash = "sha256:9cebf7e04ff162015ce31c9c6c9144daa34a93bd082f54fd8f12deca4f47515f", size = 7533040 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl", hash = "sha256:db36cdc64bf61b9b24578b6f7bab1ecdd2452cf008f34faa33776680c26d66f8", size = 6189177 },
+]
+
+[[package]]
+name = "texttable"
+version = "1.7.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1c/dc/0aff23d6036a4d3bf4f1d8c8204c5c79c4437e25e0ae94ffe4bbb55ee3c2/texttable-1.7.0.tar.gz", hash = "sha256:2d2068fb55115807d3ac77a4ca68fa48803e84ebb0ee2340f858107a36522638", size = 12831 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/24/99/4772b8e00a136f3e01236de33b0efda31ee7077203ba5967fcc76da94d65/texttable-1.7.0-py2.py3-none-any.whl", hash = "sha256:72227d592c82b3d7f672731ae73e4d1f88cd8e2ef5b075a7a7f01a23a3743917", size = 10768 },
 ]
 
 [[package]]

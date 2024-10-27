@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "causalnex>=0.12.1",
+    "dagma>=1.1.1",
     "dowhy>=0.11.1",
     "gcastle>=1.0.3",
     "ipykernel>=6.29.5",
